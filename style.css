@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(250, 76, 70);
+}
+.btn{
+    padding: 0.5em;
+    font-size: 2em;
+    border: rgba(255,255,255,0);
+    background-color: white;
+    user-select: none;
+}
+.search{
+    display: none;
+    padding: 0.5em;
+    font-size: 2em;
+    border: none;
+}
+.search-reveal{
+    display: block;
+}
+.search:focus{
+    outline: none;
+    background-color: rgba(240,240,240, 0.5);
+    
+}
